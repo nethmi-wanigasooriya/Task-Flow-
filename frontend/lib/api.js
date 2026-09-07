@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', 
+  baseURL: process.env.NEXT_PUBLIC_API_URL 
+    ? `${process.env.NEXT_PUBLIC_API_URL}/api` 
+    : 'https://task-flow-production-9a90.up.railway.app/api',
 });
 
 API.interceptors.request.use((req) => {
