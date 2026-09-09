@@ -2,7 +2,7 @@ name: Deploy Next.js site to Pages
 
 on:
   push:
-    branches: ["main"] # ඔයාගේ Branch එක master නම් මෙතන master ලෙස වෙනස් කරන්න
+    branches: ["main"] 
 
 permissions:
   contents: read
