@@ -103,12 +103,14 @@ Frontend (/frontend/.env.local)
 Variable,Description
 NEXT_PUBLIC_API_BASE_URL,Base URL pointing to the deployed/local REST API
 
-----
+---
 
 ## Deployment Information
 
 Backend API: Deployed on Railway
 Frontend App: Local Development Environment / Deployed Host
+
+---
 
 ## Project Structure
 
