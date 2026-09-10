@@ -60,8 +60,22 @@ DB_PASSWORD=
 DB_NAME=taskflow_db
 JWT_SECRET=your_jwt_secret_key
 
+# Navigate to frontend folder
+cd frontend
+
+# Install dependencies
+npm install
+
+# Create a .env.local file in the frontend directory and add:
+NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
+
+# Start Next.js development server
+npm run dev
+
 # Seed database with initial Admin user
 npm run seed
+
+
 
 # Start development server
 npm run dev
